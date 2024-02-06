@@ -18,4 +18,9 @@ Ctrl+Shift+P > Python: Select Interpreter
 (.venv)
 pip3 install pylint
 
-pylint --generate-rcfile > .pylintrc
+(.venv)
+pylint --generate-rcfile | out-file -encoding utf8 .pylintrc
+
+(.venv)
+pip3 install pre-commit
+pre-commit install
