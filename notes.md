@@ -4,3 +4,6 @@ VSCode Extensions:
 
 snake_case > Functions, variables, methods
 PascalCase > Classes
+
+Enables imports/exports in the folder
+__init__.py
