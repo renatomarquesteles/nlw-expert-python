@@ -24,3 +24,6 @@ pylint --generate-rcfile | out-file -encoding utf8 .pylintrc
 (.venv)
 pip3 install pre-commit
 pre-commit install
+
+(.venv)
+.venv\Scripts\pip3 freeze > requirements.txt
