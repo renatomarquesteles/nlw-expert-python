@@ -25,5 +25,13 @@ pylint --generate-rcfile | out-file -encoding utf8 .pylintrc
 pip3 install pre-commit
 pre-commit install
 
+Generates the requirements.txt file
 (.venv)
 .venv\Scripts\pip3 freeze > requirements.txt
+
+(.venv)
+pip3 install Flask
+pip3 install python-barcode
+pip3 install pillow
+.venv\Scripts\pip3 freeze > requirements.txt
+python run_raw.py
