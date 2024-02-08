@@ -35,3 +35,5 @@ pip3 install python-barcode
 pip3 install pillow
 .venv\Scripts\pip3 freeze > requirements.txt
 python run_raw.py
+
+pip3 install Cerberus
