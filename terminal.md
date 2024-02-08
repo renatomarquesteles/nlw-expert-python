@@ -41,3 +41,5 @@ pip3 install Cerberus
 pip3 install pytest
 pytest -s -v
 pytest -s -v src/controllers/tag_creator_controller_test.py
+pytest -s -v src/views/tag_creator_view_test.py
+pytest -s -v src/errors/error_handler_test.py
