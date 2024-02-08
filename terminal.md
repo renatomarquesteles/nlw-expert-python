@@ -37,3 +37,7 @@ pip3 install pillow
 python run_raw.py
 
 pip3 install Cerberus
+
+pip3 install pytest
+pytest -s -v
+pytest -s -v src/controllers/tag_creator_controller_test.py
